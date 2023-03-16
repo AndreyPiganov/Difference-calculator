@@ -6,9 +6,13 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/6c8f6342d116e11062bd/test_coverage)](https://codeclimate.com/github/AndreyPiganov/frontend-project-47/test_coverage)
 ### Install
 make install
-### Run
-Command gendiff -h or --help, documentation about the program
+### How to use?
 In order to compare files you need to pass 2 paths to the file (no matter if absolute or approximate): gendiff filepath1 filepath2
+### Run
+To run the program you need to use - gendiff filepath1 filepath2
+### Help
+Command gendiff -h or --help, documentation about the program
+### Supported Formats
 The default format in the program is 'stylish', but there are also 'json' and 'plain'. To view the program actions in other formats use form -f --format
 ### Example of a difference calculator
 [![asciicast](https://asciinema.org/a/ep4rx1eTperAFmzetYk0DFx55.svg)](https://asciinema.org/a/ep4rx1eTperAFmzetYk0DFx55)
