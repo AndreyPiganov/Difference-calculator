@@ -1,9 +1,13 @@
 import _ from 'lodash';
 
 const getChildren = (item) => item.children;
+
 const isComplexValue = (value) => (_.isObject(value) ? '[complex value]' : value);
+
 const isString = (item) => (_.isString(item) && item !== '[complex value]' ? `'${item}'` : item);
+
 const getName = (item) => item.name;
+
 const plain = (tree) => {
   const iter = (node, name = '') => {
     const result = node.flatMap((item) => {
